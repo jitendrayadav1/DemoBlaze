@@ -52,7 +52,7 @@ public class E2E_OrderTest extends BaseTest {
 		lpage.getClickOnLogIn().click();
 		
 		
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		//for assertion 
 		String actual=lpage.getName().getText();
 		Assert.assertEquals(actual,expected);
@@ -82,6 +82,7 @@ public class E2E_OrderTest extends BaseTest {
 		Assert.assertEquals(expProduct,actualCartProduct);
 		e.test.log(Status.INFO,"product verified successfully");
 		order.getPlaceOrder().click();
+		Thread.sleep(2000);
 		order.getName().sendKeys(tdata.name);
 		order.getCountry().sendKeys(tdata.country);
 		order.getCity().sendKeys(tdata.city);

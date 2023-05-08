@@ -52,7 +52,7 @@ public class E2E_NOrderTest1 extends BaseTest {
 		lpage.getClickOnLogIn().click();
 		
 		
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		//for assertion 
 		String actual=lpage.getName().getText();
 		Assert.assertEquals(actual,expected);
