@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 86.172 s <<< FAILURE! - in TestSuite
+placeOrder(TestCases.E2E_NOrderTest1)  Time elapsed: 17.918 s  <<< FAILURE!
+junit.framework.ComparisonFailure: Samsung galaxy s611111 expected:<Samsung galaxy s6> but was:<Assertion on product is failed >
+	at TestCases.E2E_NOrderTest1.placeOrder(E2E_NOrderTest1.java:82)
+
